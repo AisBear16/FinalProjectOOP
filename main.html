@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>chefBros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <!-- Navigation bar on top -->
+    <div class="top">
+        <div class="bar white padding card" style="letter-spacing: 4px;">
+            <a class="bar-item  navy-button">Chef Bros</a>
+            <!-- Right-sided navigation bar button -->
+            <div class="right">
+                <button id="btnGroceries" class="bar-item navy-button">Groceries</button>
+                <button id="btnExit" class="bar-item navy-button">Exit</button>
+            </div>
+        </div>
+    </div>
+    <!-- Image as background -->
+    <header class = "display-container content wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class= "image" src="steak.jpg" width="1600" height="800">
+        <div class = "image-text-display-middle padding-large border wide text-grey-light center">
+            <h1>
+                CHEF BROS
+            </h1>
+            <h2 style = "font-style: italic;">
+                YOUR PERFECT MEAL PLANNER
+            </h2>
+        </div>
+        <!--Recipe search function-->
+        <div>
+            <h3>
+                ----------Search your desired recipe here----------<br>
+                (list of recipes can be found at www.themealdb.com)<br>
+            </h3>
+            <h4>*Create your grocery list in Groceries page after finding out<br>the ingredient for desired recipe</h4>
+            <div class = "search-box image-text-display-bottom">
+                <input type="text" id="food" class="search-txt" placeholder="Ex: pasta" />
+                <a class="search-btn">
+                    <i class="fa fa-search" aria-hidden="true" onclick="buttonClicked()"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <p id="display" class="recipe"></p>
+    <script src="main.js"></script>
+</body>
+</html>

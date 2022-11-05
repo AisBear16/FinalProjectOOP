@@ -1,0 +1,87 @@
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-family: "Times New Roman", Georgia, Serif!important;
+    font-size: 14px;
+}
+
+button{
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Georgia, Serif!important;
+}
+
+.bar{
+    width: auto;
+    overflow: hidden;
+}
+
+.bar-item{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.bar .navy-button{
+    white-space: normal;
+}
+
+.navy-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.navy-button:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.white,.hover-white:hover{
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.right{
+    float: right!important;
+}
+
+.padding{
+    padding: 8px 16px!important;
+}
+
+.card{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.mainWrapper{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    font-size: 20px!important;
+}
+
+h2{
+    font-size: 15px!important;
+}
+
+body{
+    background: rgb(194, 194, 194)!important;
+}

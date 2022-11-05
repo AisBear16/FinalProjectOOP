@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>chefBros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CRUDstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+</head>
+<body>
+    <!-- Navigation bar on top -->
+    <div class="top">
+        <div class="bar white padding card" style="letter-spacing: 4px;">
+            <a class="bar-item  navy-button">Chef Bros</a>
+            <!-- Right-sided navigation bar button -->
+            <div class="right">
+                <button id="btnHome" class="bar-item navy-button">Home</button>
+            </div>
+        </div>
+    </div>
+    <div class="mainWrapper">
+        <h1>GROCERY LIST</h1>
+        <h2>Enter the dish name and ingredients needed.</h2>
+        <!-- CRUD form-->
+        <form>
+          <div class="form-group">
+            <label>Dish list</label>
+            <input id="fileName" type="text" class="form-control" placeholder="Cth: AyamRendang.txt">
+          </div>
+  
+          <div class="form-group">
+            <label>List of ingredients</label>
+            <textarea id="fileContents" class="form-control" rows="10" placeholder="Cth: ayam, bawang, lada"></textarea>
+          </div>
+        </form>
+        <button id="btnCreate" class="btn btn-default">Create</button>
+        <button id="btnOpen" class="btn btn-default">Open</button>
+        <button id="btnUpdate" class="btn btn-default">Update</button>
+        <button id="btnDelete" class="btn btn-default">Delete</button>
+      </div>
+    <script src="CRUD.js"></script>
+</body>
+</html>
